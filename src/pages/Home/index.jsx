@@ -9,7 +9,7 @@ function Home() {
     <>
       <Header />
       <div className="cf d-flex align-items-center justify-content-center">
-        <div className="justify-content-center align-items-center d-flex flex-column ">
+        <div className="col-lg-12 justify-content-center align-items-center d-flex flex-column ">
           <h3 className="text-center fw-light">
             A Web3 Social and Storage Network for Wine<br></br>
             and Spirit Enthusiast, Collections and<br></br>
@@ -53,7 +53,7 @@ function Home() {
           <h1 className="text-center">
           How it Works
           </h1><br></br>
-          <img src={Img} alt=""/>
+          <img src={Img} alt="" className="img-fluid"/>
         </div>
       </div>
 
